@@ -33,7 +33,7 @@ const App = () =>{
     }
     
   try {
-    const response = await fetch('http://localhost:5000/submit', {
+    const response = await fetch('https://lead-generation-form-ld9t.onrender.com/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
