@@ -7,8 +7,9 @@ const app = express()
 const PORT = 5000
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://newleaddetails.netlify.app', // your frontend Netlify domain
   methods: ['POST', 'GET'],
+  credentials: true
 }));
 app.use(express.json())
 
